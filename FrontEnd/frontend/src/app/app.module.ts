@@ -16,6 +16,7 @@ import { HomeComponent } from './views/home/home.component';
 import { AppRoutingModule } from './app.routing.module';
 
 import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
 
 
 
@@ -31,6 +32,7 @@ import { RedDirective } from './directives/red.directive';
     NavComponent,
     HomeComponent,
     RedDirective,
+    ForDirective,
 
   ],
   imports: [
