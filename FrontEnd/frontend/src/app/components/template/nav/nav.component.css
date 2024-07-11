@@ -4,9 +4,16 @@
 }
 
 .sidenav a {
-    color: #fff;
+  
+    
+    color: #fff !important;
 }
 
 .sidenav i {
     padding-right:  10px;
+}
+
+.content{
+    padding: 16px;
+    
 }
