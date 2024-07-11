@@ -13,13 +13,15 @@ import { MatSidenavModule } from  '@angular/material/sidenav';
 import { MatCardModule } from  '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
-
+import { AppRoutingModule } from './app.routing.module';
 
 
 
 
 
 @NgModule({
+
+  
   declarations: [
     AppComponent,
     FooterComponent,
@@ -34,7 +36,8 @@ import { HomeComponent } from './views/home/home.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule,
+    MatCardModule,  
+    AppRoutingModule, 
   
     
     
