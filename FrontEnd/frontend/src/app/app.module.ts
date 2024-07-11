@@ -15,6 +15,8 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { AppRoutingModule } from './app.routing.module';
 
+import { RedDirective } from './directives/red.directive';
+
 
 
 
@@ -27,7 +29,8 @@ import { AppRoutingModule } from './app.routing.module';
     FooterComponent,
     HeaderComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    RedDirective,
 
   ],
   imports: [
