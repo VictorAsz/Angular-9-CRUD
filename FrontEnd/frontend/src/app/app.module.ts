@@ -21,6 +21,11 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
 
 import { RedDirective } from "./directives/red.directive";
 import { ForDirective } from "./directives/for.directive";
+import { provideHttpClient } from "@angular/common/http";
+
+import { FormsModule } from "@angular/forms";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatInputModule } from "@angular/material/input";
 
 @NgModule({
   declarations: [
@@ -43,8 +48,11 @@ import { ForDirective } from "./directives/for.directive";
     AppRoutingModule,
     MatButton,
     MatSnackBarModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
-  providers: [],
+  providers: [provideHttpClient()],
 
   bootstrap: [AppComponent],
 })

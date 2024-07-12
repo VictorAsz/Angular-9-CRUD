@@ -1,14 +1,19 @@
 {
   "Products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Anel",
       "price": 5.89
     },
     {
-      "id": 1,
+      "id": "1",
       "name": "Anel",
       "price": 5.89
+    },
+    {
+      "id": "058a",
+      "name": "ProdutoDeTestes",
+      "price": 123.43
     }
   ]
 }
