@@ -7,6 +7,7 @@ import { HeaderComponent } from "./components/template/header/header.component";
 
 import { FooterComponent } from "./components/template/footer/footer.component";
 import { NavComponent } from "./components/template/nav/nav.component";
+import { ProductReadComponent } from "./components/products/product-read/product-read.component";
 import { ProductCrudComponent } from "./views/product-crud/product-crud.component";
 import { HomeComponent } from "./views/home/home.component";
 
@@ -39,6 +40,7 @@ import { ProductCreateComponent } from "./components/products/product-create/pro
     ProductCrudComponent,
     ProductCreateComponent,
     ForDirective,
+    ProductReadComponent,
   ],
   imports: [
     BrowserModule,
